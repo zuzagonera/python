@@ -1,6 +1,5 @@
-def print_names(name, surname):
-    words = "Cześć {} {}!".format(name, surname)
-    print(words)
+def print_names(name: str, surname: str) -> str:
+    return "Cześć {} {}!".format(name, surname)
 
 
-print_names('Jan', 'Kowalski')
+print(print_names('Dwight', 'Schrute'))
