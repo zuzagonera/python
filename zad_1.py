@@ -1,5 +1,5 @@
 def print_names(name: str, surname: str) -> str:
-    return "Cześć {} {}!".format(name, surname)
+    return f'Cześć {name} {surname}!'
 
 
 print(print_names('Dwight', 'Schrute'))
