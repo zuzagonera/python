@@ -1,5 +1,6 @@
-def print_names(name, name1, name2, name3, name4):
-    print(name, name1, name2, name3, name4)
+def print_names(names):
+    for name in names:
+        print(name)
 
 
-print_names('Martin', 'Will', 'Eleven', 'Steven', 'Harry')
+print_names(['Dustin', 'Will', 'Eleven', 'John', 'Jim'])
